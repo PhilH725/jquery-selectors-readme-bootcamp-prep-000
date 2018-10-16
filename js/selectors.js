@@ -5,5 +5,5 @@ function paragraphSelector() {
 }
 
 function lastImageSelector() {
-  return ('ul li')
+  return ('#image:last')
 }
