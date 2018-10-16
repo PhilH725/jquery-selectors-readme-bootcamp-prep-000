@@ -5,6 +5,8 @@ function paragraphSelector() {
 }
 
 function lastImageSelector() {
-  let test = $('image')
-  return test[test.length]
+  console.log($('img'))
+  return ('img:last')
 }
+
+lastImageSelector()
