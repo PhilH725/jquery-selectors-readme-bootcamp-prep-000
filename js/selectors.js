@@ -5,5 +5,5 @@ function paragraphSelector() {
 }
 
 function lastImageSelector() {
-  return $('image:last')
+  return $('parent-tag child-tag:last-child')
 }
